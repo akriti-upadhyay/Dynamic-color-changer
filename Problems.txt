@@ -1,0 +1,12 @@
+PROBLEMS
+
+- figuring out how to change multiple css properties at once
+
+- how to make changes in external CSS
+
+- how querySelectorAll() and getElementByID() work ?
+
+= querySelectorAll() is used with CSS selectors and getElementByID() is used with HTML elements 
+= querySelectorAll() returns an Array, that's why we can't use that in this program. We have to use querySelector(), which returns a single value. This way, here we were able to used querySelector() and getElementById() interchangibly, as both were returning the same DOM element
+
+
